@@ -2,7 +2,7 @@
 
 ## BottomNavigationView + ViewPager
 
-![./arts/b_and_p.gif]()
+![BottomNavigationView + ViewPager](./arts/b_and_p.gif)
 
 ```java
 public class MainActivity extends AppCompatActivity {

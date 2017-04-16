@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         binding.navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                binding.pager.setCurrentItem(BottomNavigationPage.forPager(item).pageIndex);
+                binding.pager.setCurrentItem(BottomNavigationPage.forPager(item).pageIndex, false);
                 return false;
             }
         });
